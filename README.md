@@ -1,5 +1,5 @@
 <h2 align="center">
-    「 𝕮𝖍𝖆𝖒𝖕𝖚 」</h2>
+    「 hina × assistant 」</h2>
 
 <p align="center">
   <img src="https://github.com/TheChampu/ChampuMusic/blob/main/TheChampu.gif">
