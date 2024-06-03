@@ -1,0 +1,84 @@
+{
+  "name": " ˹ 𝐇ɪɴᴀ ✘ 𝐀ssɪsᴛᴀɴᴛ ",
+  "description": "ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ᴡɪᴛʜ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴘʏ-ᴛɢᴄᴀʟʟs.",
+  "logo": "https://telegra.ph/file/3c3ab79fba0fa91a4ae8e.jpg",
+  "keywords": [
+  "python3",
+  "telegram",
+  "bot",
+  "Champu",
+  "MusicBot",
+  "telegram-bot",
+  "pyrogram"
+  ],
+    "env": {
+      "API_ID": {
+        "description": "ɢᴇᴛ ᴀᴘɪ ʜᴀsʜ ғʀᴏᴍ https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "ɢᴇᴛ ʙᴏᴛ's ᴛᴏᴋᴇɴ ғʀᴏᴍ ʙᴏᴛғᴀᴛʜᴇʀ",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "ᴘᴜᴛ ʏᴏᴜʀ ʙᴏᴛ's ᴜsᴇʀɴᴀᴍᴇ ᴡɪᴛʜᴏᴜᴛ ᴜsɪɴɢ @",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "ɢᴇᴛ ᴀ ᴍᴏɴɢᴏᴅʙ ᴜʀʟ ғʀᴏᴍ https://cloud.mongodb.com.",
+        "value": "",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "ᴛʜᴇ ᴜsᴇʀ ɪᴅ ᴏғ ᴜsᴇʀ ᴡʜᴏᴍ ʏᴏᴜ ᴡᴏᴜʟᴅ ʟɪᴋᴇ ᴛᴏ ᴀᴅᴅ ᴀs ᴏᴡɴᴇʀ..",
+        "value": "6399386263",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "ᴀ ᴘʏʀᴏɢʀᴀᴍ ᴠ𝟸 sᴛʀɪɴɢ sᴇssɪᴏɴ ғʀᴏᴍ @ChampuStringBot ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ. ",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "ʏᴏᴜʀ ʜᴇʀᴏᴋᴜ ᴀᴄᴄᴏᴜɴᴛ's ᴀᴘɪ ᴋᴇʏ",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "ʏᴏᴜʀ ʜᴇʀᴏᴋᴜ ᴀᴘᴘ ɴᴀᴍᴇ.",
+        "value": "",
+        "required": false
+      },
+      "START_IMG_URL": {
+        "description": "ғɪʟʟ ʜᴇʀᴇ ʏᴏᴜʀ sᴛᴀʀᴛ ɪᴍᴀɢᴇ ᴜʀʟ, ɢᴇᴛ ɪᴛ ғʀᴏᴍ @TheChampuBot ᴜsɪɴɢ /tgm ᴄᴏᴍᴍᴀɴᴅ",
+        "value": "",
+        "required": true
+      },
+      "LOGGER_ID": {
+        "description": "ʏᴏᴜʀ ʟᴏɢ ɢʀᴏᴜᴘ ɪᴅ, ᴀᴅᴅ ʏᴏᴜʀ ʙᴏᴛ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴀs ᴀɴ ᴀᴅᴍɪɴ ᴡɪᴛʜ ғᴜʟʟ ʀɪɢʜᴛs!.",
+        "value": "",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "basic"
+          }
+      },
+      "stack": "container"
+  }
