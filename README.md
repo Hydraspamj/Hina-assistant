@@ -2,7 +2,7 @@
     「 hina × assistant 」</h2>
 
 <p align="center">
-  <img src="https://github.com/TheChampu/ChampuMusic/blob/main/TheChampu.gif">
+  <img src="https://telegra.ph/file/3c3ab79fba0fa91a4ae8e.jpg">
 </p>
 </p>
  <h3></h3>
