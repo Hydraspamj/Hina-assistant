@@ -128,7 +128,7 @@ sudo pkill -9 python3
 </h3>
 
 <p align="center">
-<a href="https://t.me/han_supportt"><img src="https://img.shields.io/badge/-Owner-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/shinu_han"><img src="https://img.shields.io/badge/-Owner-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <h3 align="center">
